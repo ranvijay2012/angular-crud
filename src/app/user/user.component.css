@@ -1,0 +1,36 @@
+.users{
+    list-style: none;
+    margin-left: -40px;
+}
+
+.users li{
+    height: 30px;
+    width: 400px;
+}
+.users li span:nth-child(1){
+    font-display: initial;
+    border-collapse: collapse;
+    border: 1px solid blue;
+    width: 200px;
+    margin-right: 10px;
+    
+}
+.users li span:nth-child(2){
+    font-display: initial;
+    border-collapse: collapse;
+    width: 100px;
+    margin-right: 10px;
+}
+.users li span:nth-child(3){
+    font-display: initial;
+    border-collapse: collapse;
+    width: 100px;
+    margin-right: 10px;
+}
+.userDetail span{
+    padding-right: 20px;
+    background-color: blanchedalmond;
+    height: 30px;
+    border: 1px solid blue;
+    border-collapse: collapse;
+}

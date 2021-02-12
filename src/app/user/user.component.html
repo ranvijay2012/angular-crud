@@ -1,0 +1,14 @@
+<h2>User List</h2>
+<ul class="users">
+    <li *ngFor="let user of users" (click)="getUser(user.userId)">
+        <span>{{user.userName}}</span>
+        <span><a routerLink="/update-user" (click)="getUpdate(user)">update</a></span>
+        <span><a href="" (click)="deleteUser(user.userId)"> delete</a>  </span>
+    </li>
+</ul>
+<div *ngIf="user" class="userDetail">
+    <h3>User Detail</h3>
+    <span>{{user.userId}}</span>
+    <span>{{user.userName}}</span>
+    <span>{{user.userEmail}}</span>
+</div>

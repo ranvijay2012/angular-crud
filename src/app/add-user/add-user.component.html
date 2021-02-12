@@ -1,0 +1,10 @@
+<h3>Add User</h3>
+
+<form #userForm="ngForm" (ngSubmit)="onSubmit(user)">
+
+    <label>Name : </label><input name="userName" [(ngModel)]="user.userName"><br/>
+    <label>Email :</label><input name="userEmail" [(ngModel)]="user.userEmail"><br/>
+    <button type="submit">Submit</button>
+
+</form>
+
